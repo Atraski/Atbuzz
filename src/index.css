@@ -6,12 +6,12 @@
 
 body {
   overflow-x: hidden;
+  background-color: #fdf6e3;
 }
 
 .container {
   max-width: 85rem;
   margin: 0 auto;
-  /* border: red 1px solid; */
 }
 
 a {
@@ -21,6 +21,5 @@ a {
 .page-heading {
   text-align: center;
   font-size: 3rem;
-  color: white;
   padding: 1rem 0;
 }

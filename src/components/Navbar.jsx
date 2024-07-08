@@ -18,7 +18,7 @@ const Navbar = () => {
             Home
           </NavLink>
           <NavLink
-            to="/about-us"
+            to="/about"
             style={({ isActive }) => (isActive ? { color: "#a10202" } : {})}
           >
             About Us

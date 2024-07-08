@@ -17,3 +17,10 @@ body {
 a {
   text-decoration: none;
 }
+
+.page-heading {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  padding: 1rem 0;
+}

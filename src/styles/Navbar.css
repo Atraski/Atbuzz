@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #ffff0072;
+    padding: 1rem 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container img {
+    width: 10rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.1rem;
+}
+
+.nav-links a {
+    color: #ff0000;
+    transition: all 0.3s ease-in;
+}
+
+.nav-links a:hover {
+    color: #a10202;
+    transform: translateY(-5px);
+}

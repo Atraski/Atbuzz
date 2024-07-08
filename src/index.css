@@ -5,6 +5,15 @@
 }
 
 body {
-
   overflow-x: hidden;
+}
+
+.container {
+  max-width: 85rem;
+  margin: 0 auto;
+  /* border: red 1px solid; */
+}
+
+a {
+  text-decoration: none;
 }

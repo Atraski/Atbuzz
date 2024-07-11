@@ -1,4 +1,33 @@
+.about-page {
+    padding: 3rem 0;
+    background-color: #FFECF6;
+    /* padding-bottom: 45rem; */
+}
+
+.about-page h1 {
+    margin-bottom: 1rem;
+    color: #ff288b;
+}
+
 .about-page p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    color: rgb(101, 101, 101);
+}
+
+.about-content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-content-container .image-container {
+    width: 50%;
+}
+
+.about-content-container img {
+    width: 35rem;
+}
+
+.about-content-container .about-content {
+    width: 50%;
 }

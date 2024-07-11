@@ -1,0 +1,41 @@
+.service-page {
+    padding: 2rem 0;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.service-page .services {
+    position: relative;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 15rem;
+}
+
+.services-container div:first-child,
+.services-container div:nth-child(2) {
+    display: flex;
+    gap: 1rem;
+}
+
+.services-container a {
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 4rem;
+    font-size: 1.7rem;
+    border-radius: 2px;
+    transition: all 100ms ease-in;
+    border: none;
+}
+
+.services-container a:active {
+    transform: scale(0.8);
+}

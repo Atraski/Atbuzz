@@ -1,0 +1,33 @@
+.work-container h1 {
+    margin-bottom: 1rem;
+}
+
+/* Work Videos */
+.work-videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.work-videos video {
+    border: #fff236 5px solid;
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    padding: 1rem;
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 40, 139, 0.8);
+    padding: 3px;
+}

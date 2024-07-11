@@ -5,8 +5,11 @@
 }
 
 body {
-  overflow-x: hidden;
-  background-color: #fdf6e3;
+  background-color: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -18,8 +21,18 @@ a {
   text-decoration: none;
 }
 
+#tsparticles {
+  position: absolute;
+  z-index: -1;
+}
+
+#page {
+  height: 100vh;
+}
+
 .page-heading {
   text-align: center;
   font-size: 3rem;
   padding: 1rem 0;
+  color: white;
 }

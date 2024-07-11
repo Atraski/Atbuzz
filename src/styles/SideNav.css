@@ -1,0 +1,56 @@
+.sidenav {
+    position: absolute;
+    top: 20%;
+
+}
+
+.sidenav .sidenav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.sidenav .sidenav-list a {
+    text-decoration: none;
+
+}
+
+.sidenav .sidenav-list::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #ffffff;
+
+}
+
+.sidenav .sidenav-list li {
+    position: relative;
+    color: white;
+    font-size: 1.3rem;
+    max-width: 12rem;
+    margin-left: 1.8rem;
+}
+
+.sidenav .sidenav-list li::before {
+    content: "\2022";
+    color: #fc0c8c;
+    font-size: 1.4rem;
+    position: absolute;
+    left: -22px;
+    top: -3px;
+}
+
+.sidenav .sidenav-list li::before:hover {
+    cursor: default;
+}
+
+.sidenav .sidenav-list li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}

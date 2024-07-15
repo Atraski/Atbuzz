@@ -13,7 +13,7 @@ const ServicesPage = () => {
   ];
 
   return (
-    <main className="service-page container" id="services">
+    <section className="service-page container" id="services">
       <h1 className="page-heading">Services</h1>
 
       <div className="services">
@@ -30,7 +30,7 @@ const ServicesPage = () => {
         </div>
         <SideNav listItems={listItems} />
       </div>
-    </main>
+    </section>
   );
 };
 

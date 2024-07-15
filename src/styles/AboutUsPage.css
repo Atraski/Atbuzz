@@ -31,3 +31,21 @@
 .about-content-container .about-content {
     width: 50%;
 }
+
+@media(max-width:768px) {
+    .about-content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .about-content-container img {
+        width: 20rem;
+    }
+
+    .about-content-container .image-container,
+    .about-content-container .about-content {
+        width: 100%;
+    }
+}

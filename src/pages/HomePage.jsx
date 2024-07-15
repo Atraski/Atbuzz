@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { ReactTyped } from "react-typed";
 
 import "../styles/HomePage.css";

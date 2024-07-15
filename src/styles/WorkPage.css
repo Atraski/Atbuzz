@@ -31,3 +31,17 @@
     background-color: rgb(255, 40, 139, 0.8);
     padding: 3px;
 }
+
+@media(max-width:768px) {
+    .work-videos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .work-videos video {
+        padding: 10px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

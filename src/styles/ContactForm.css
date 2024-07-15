@@ -1,5 +1,5 @@
 .contact-us {
-    margin-top: 5rem;
+    margin: 5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,4 +44,16 @@
 
 .contact-us form button:active {
     transform: scale(0.9);
+}
+
+@media(max-width:768px) {
+
+    .contact-us {
+        padding: 2rem 0 0 0;
+    }
+
+    .contact-us form {
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
 }

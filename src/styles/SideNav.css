@@ -54,3 +54,9 @@
     cursor: pointer;
     transform: scale(1.2);
 }
+
+@media(max-width:768px) {
+    .sidenav {
+        display: none;
+    }
+}

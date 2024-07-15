@@ -39,3 +39,17 @@
 .services-container a:active {
     transform: scale(0.8);
 }
+
+@media(max-width:768px) {
+
+    .services-container {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .services-container a {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}

@@ -6,6 +6,7 @@
 
 body {
   background-color: #000000;
+
 }
 
 html {
@@ -13,7 +14,8 @@ html {
 }
 
 .container {
-  max-width: 85rem;
+  width: 85rem;
+  /* padding: 0 10rem; */
   margin: 0 auto;
 }
 
@@ -35,4 +37,10 @@ a {
   font-size: 3rem;
   padding: 1rem 0;
   color: white;
+}
+
+@media(max-width:768px) {
+  .container {
+    width: 20rem;
+  }
 }
